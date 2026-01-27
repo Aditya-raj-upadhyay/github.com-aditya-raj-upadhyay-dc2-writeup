@@ -1,8 +1,6 @@
 ## DC-2 Penetration Testing Walkthrough
 Hands on Penetration testing walkthrough of DC-2 vulnerable machine
 
-🛡️ DC-2 Penetration Testing Walkthrough
-
 ## Overview
 This project documents the exploitation of a vulnerable Linux machine (DC-2) as part of hands-on penetration testing practice.
 The objective was to gain initial access and escalate privileges to root by identifying and exploiting misconfigurations and vulnerabilities.
