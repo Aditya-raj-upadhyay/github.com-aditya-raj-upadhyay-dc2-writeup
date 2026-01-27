@@ -23,7 +23,7 @@ The objective was to gain initial access and escalate privileges to root by iden
 Performed a full TCP port scan to identify open services.
 
 Command used:
-nmap -sCV -p- <target-ip> --min-rate 10000
+nmap -sCV -p- 192.168.184.194 --min-rate 10000
 
 Findings:
 - HTTP service discovered
@@ -33,8 +33,8 @@ Findings:
 Directory enumeration was performed to discover hidden paths and files.
 
 Command used:
-gobuster dir -u http://<target-ip> -w /usr/share/wordlists/dirb/common.txt
-wpscan --url http://<target-ip> -e 
+gobuster dir -u http://dc-2/ -w /usr/share/wordlists/dirb/common.txt
+wpscan --url http://dc-2/ -e 
 
 Key observations:
 - Discovered restricted directories
@@ -47,7 +47,7 @@ Using credentials identified during enumeration, access to the system was obtain
 
 Result:
 - Shell access gained as a low-privileged user
-- Access verified using the `whoami` command
+- Access verified using the 'whoami' command
 
 ## Phase 4: Privilege Escalation
 Local system enumeration was performed to identify privilege escalation vectors.
