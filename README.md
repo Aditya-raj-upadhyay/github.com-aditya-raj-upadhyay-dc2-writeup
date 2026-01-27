@@ -1,4 +1,4 @@
-## DC-2 Penetration Testing Walkthrough
+## DC-2 Penetration Testing Project
 Hands on Penetration testing walkthrough of DC-2 vulnerable machine
 
 ## Overview
