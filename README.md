@@ -1,4 +1,4 @@
-# github.com-aditya-raj-upadhyay-dc2-writeup
+## DC-2 Penetration Testing Walkthrough
 Hands on Penetration testing walkthrough of DC-2 vulnerable machine
 
 🛡️ DC-2 Penetration Testing Walkthrough
